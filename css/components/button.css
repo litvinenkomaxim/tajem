@@ -1,0 +1,211 @@
+.button {
+  font-family: "Hammersmith One";
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 0.5px solid transparent;
+  cursor: pointer;
+}
+
+.news-button-margin {
+  padding-bottom: 50px;
+}
+
+.button-size-normal {
+  padding: 10px 13px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.button-size-large {
+  padding: 14px 50px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.button-size-small {
+  padding: 9px 10px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.button-size-extra-small {
+  padding: 3px 3px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.button-size-block {
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0px;
+}
+
+.button-primary {
+  background: #337ab7;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background: #fff;
+  color: #337ab7;
+  border-color: #337ab7;
+}
+
+.button-danger {
+  background: #d9534f;
+  color: #fff;
+}
+
+.button-danger:hover {
+  background: #fff;
+  color: #d9534f;
+  border-color: #d9534f;
+}
+
+.button-warning {
+  background: #f0ad4e;
+  color: #fff;
+}
+
+.button-warning:hover {
+  background: #fff;
+  color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.button-style-info {
+  background: #5bc0de;
+  color: #fff;
+}
+
+.button-style-info:hover {
+  background: #fff;
+  color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.button-style-succes {
+  background: #009688;
+  color: #fff;
+}
+
+.button-style-succes:hover {
+  background: #fff;
+  color: #009688;
+  border-color: #009688;
+}
+
+.button-style-default {
+  color: #00e0d0;
+  border: 2px solid #00e0d0;
+  background: none;
+}
+
+.button-style-default:hover {
+  background: #00e0d0;
+  color: white;
+  border-color: transparent;
+}
+
+.hero-button {
+  margin-top: 33px;
+  margin-bottom: 207px;
+}
+
+.meet-button {
+  margin-top: 20px;
+  margin-bottom: 66px;
+}
+
+.works-button {
+  margin-top: 70px;
+  margin-bottom: 67px;
+}
+
+.footer-form-button {
+  display: flex;
+  height: 45px;
+  width: 22%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.footer-form-button-link {
+  display: flex;
+  height: 45px;
+  width: 22%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.footer-form-button-link:hover {
+  display: flex;
+  height: 45px;
+  width: 22%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  background-color: red;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.footer-form-button-img {
+  height: 100%;
+  width: auto;
+}
+
+.play-button {
+  font-size: 100px;
+}
+
+.play-button-a {
+  color: white;
+}
+
+.play-button-a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.card-icon {
+  font-size: 50px;
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #00e0d0;
+  line-height: 50px;
+}
+
+.a-social {
+  font-size: 35px;
+  line-height: 35px;
+  color: white;
+}
+
+.a-social:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.footer-form-button-icon {
+  font-size: 28px;
+  line-height: 28px;
+
+  color: black;
+}

@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 14px 0;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 20px;
+}
+
+a,
+.link {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 15px 0;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+* + p,
+* + ul,
+* + ol,
+* + figure {
+  margin-top: 15px;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ol,
+ol > li > ul {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.icon-circular:before {
+  content: "\e900";
+}

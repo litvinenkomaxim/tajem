@@ -1,0 +1,24 @@
+.logo img {
+  height: 50px;
+  width: 128px;
+}
+
+.logo-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 229px;
+  width: 235px;
+  margin: 0 auto;
+}
+
+
+.logo-grid-image-hight {
+  width: auto;
+  height: 100%;
+}
+
+.logo-grid-image {
+  width: 100%;
+  height: auto;
+}

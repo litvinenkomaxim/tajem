@@ -1,0 +1,21 @@
+.works-link {
+
+    color: #413d4b;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    margin-right: 21px;
+}
+
+.works-link:hover {
+    color: red;
+}
+
+.right-arrow {
+    position: absolute;
+    height: 13px;
+    width: 8px;
+    right: -20px;
+    bottom: 2px;
+}
